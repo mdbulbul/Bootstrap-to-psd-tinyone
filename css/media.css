@@ -1,0 +1,139 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+      header{
+    padding: 20px 0;
+}
+.cus-menu ul li a{
+    text-align: right;
+    padding: 0 0px !important;
+    font-size: 18px;
+}
+  
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+      header{
+    padding: 20px 0;
+}
+.cus-menu ul li a{
+    text-align: right;
+    padding: 0 0px !important;
+}
+/* ==slider strat== */
+.slider_content {
+    margin-top: 20px;
+}
+.slider_content h1{
+    font-size: 23px;
+}
+.slider_content h6{
+    font-size: 12px;
+}
+.slider_content p{
+    font-size: 9px;
+
+}
+.slider_content .icons{}
+.slider_content .icons li i{
+    font-size: 23px;
+}
+.cus-ind{
+    bottom: -65px;
+}
+.cus-ind li {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+.slider_img{
+    max-width: 70%;
+    height: auto;
+}
+/* ==slider end== */
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+    padding: 20px 0;
+}
+.cus-menu ul li a{
+    text-align: right;
+    padding: 0 0px !important;
+}
+/*slider*/
+.slider_content {
+    margin-top: 20px;
+}
+.slider_content h1 {
+
+    font-size: 27px;
+}
+.slider_content h6 {
+    font-size: 13px;
+}
+.slider_content p {
+    font-size: 11px;
+}
+.slider_content .icons li i {
+    font-size: 30px;
+}
+.slider_img{
+    max-width: 70%;
+    height: auto;
+}
+/*slider end*/
+/* ==features strat== */
+.features {
+    padding: 70px 0;
+}
+.features-title {
+    margin-bottom: 70px;
+}
+.features-content {
+    margin-bottom: 70px;
+}
+.features-title h1 {
+    font-size: 30px;
+}
+.features-title p {
+    font-size: 15px;
+}
+.features-icon i {
+    font-size: 32px;
+}
+.features-content h1 {
+    font-size: 17px;
+}
+.features-content p {
+    font-size: 12px;
+}
+/* ==features end== */
+/*last strat*/
+.last-title h1 {
+    font-size: 27px;
+}
+.last-title p {
+    font-size: 15px;
+}
+.last-icon i {
+    font-size: 32px;
+}
+.last_content p, .last_content2 p, .last_content3 p, .last_content4 p, .last_content5 p {
+    font-size: 13px;
+}
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
